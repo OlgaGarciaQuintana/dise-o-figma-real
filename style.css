@@ -1,4 +1,26 @@
+/*TODA LA PÁGINA*/
+
 body{
   font-family: "Mulish", sans-serif;
-  font-optical-sizing: auto;
+  margin: 0px;
 }
+
+/*NOTIFICACIÓN TOP*/
+
+aside{
+  text-align: center;
+  background-color: #ad752e;
+  padding: 1px;
+}
+
+/*Añade estos valores al primer p que hay dentro de aside*/
+aside p:first-of-type{
+  color: white;
+}
+
+/*Añade estos valores al primer link que hay dentro de aside*/
+aside a:first-of-type{
+  color: white;
+}
+
+
