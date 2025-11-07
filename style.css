@@ -50,4 +50,8 @@ header p:nth-of-type(2) {
   margin-bottom: 0px;
 }
 
+img:katora{
+  width: 300px;
+}
+
 
