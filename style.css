@@ -6,6 +6,7 @@ body {
   padding: 0px;
 }
 
+
 /*NOTIFICACIÓN TOP*/
 
 aside {
@@ -50,8 +51,28 @@ header p:nth-of-type(2) {
   margin-bottom: 0px;
 }
 
-img:katora{
+header img:katora{
   width: 300px;
 }
+
+header ul{
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+header li{
+    margin: 0 19px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+header a{ 
+    text-decoration: none;
+    color: black;
+}
+
 
 
