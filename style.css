@@ -50,6 +50,7 @@ header p:nth-of-type(2) {
 }
 
 header img:katora {
+  float: left;
   width: 300px;
 }
 
@@ -79,13 +80,16 @@ nav{
 
 header .icons img {
   width: 20px;
+  padding: 10px;
 }
 
 header .icons {
-  width: auto;
-  height: auto;
   float: right;
 } 
+
+.bloque {
+  padding: 5px;
+}
 
 
 
