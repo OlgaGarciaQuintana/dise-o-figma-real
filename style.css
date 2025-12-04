@@ -77,3 +77,15 @@ nav{
   margin: 0px;
 }
 
+header .icons img {
+  width: 20px;
+}
+
+header .icons {
+  width: auto;
+  height: auto;
+  float: right;
+} 
+
+
+
