@@ -1,69 +1,76 @@
-/*TODA LA PÁGINA*/
-
+/* TODA LA PÁGINA */
 body {
   font-family: "Mulish", sans-serif;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-/*NOTIFICACIÓN TOP*/
-
+/* NOTIFICACIÓN TOP */
 aside {
   text-align: center;
   background-color: #ad752e;
-  padding: 1px;
+  padding: 3px 0;
+  margin: 0;
 }
 
-/*Añade estos valores al primer p que hay dentro de aside*/
 aside p:first-of-type {
   color: white;
+  margin: 0;
 }
 
-/*Añade estos valores al primer link que hay dentro de aside*/
 aside a:first-of-type {
   color: white;
 }
 
-/*HEADER*/
-
+/* HEADER */
 header {
-  margin-top: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-/*Añade esto al div que tiene los dos primeros p*/
+/* BARRA SUPERIOR */
 .superior {
   background-color: #f5f5f5;
   display: flex;
+  justify-content: space-between;
+  padding: 3px 15px;
+  font-size: 14px;
+  margin: 0;
 }
 
-header p:first-of-type {
+.superior p {
+  margin: 0;
+}
+
+/* CONTENEDOR PRINCIPAL DEL HEADER */
+.header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px;
+  margin: 0;
+}
+
+/* LOGO */
+.logo {
   float: left;
-  margin: 0px;
+  width: 180px;
+  margin: 0;
+  padding: 0;
 }
 
-/*Añade estos valores al segundo p del header*/
-header p:nth-of-type(2) {
-  float: right;
-  margin-left: auto;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-header img:katora {
-  float: left;
-  width: 300px;
-}
-
+/* MENÚ */
 header ul {
   list-style-type: none;
-  padding: 0px;
+  padding: 0;
+  margin: 0;
   overflow: hidden;
   display: flex;
   justify-content: center;
+  gap: 20px;
 }
 
 header li {
-  margin: 0 19px;
   font-weight: bold;
   font-size: 12px;
 }
@@ -73,23 +80,19 @@ header a {
   color: black;
 }
 
-nav{
-  float: right;
-  margin: 0px;
-}
-
+/* ICONOS DERECHA */
 header .icons img {
   width: 20px;
-  padding: 10px;
+  padding: 0;
+  margin-left: 12px;
+  cursor: pointer;
 }
 
 header .icons {
-  float: right;
-} 
+  display: flex;
+  align-items: center;
+}
 
 .bloque {
   padding: 5px;
 }
-
-
-
