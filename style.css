@@ -47,10 +47,6 @@ aside a {
   transition: opacity 0.3s;
 }
 
-.cerrar-notificacion:hover {
-  opacity: 0.7;
-}
-
 /* HEADER */
 header {
   margin: 0;
@@ -107,10 +103,6 @@ header nav a {
   color: #333;
 }
 
-header nav a:hover {
-  color: #ad752e;
-}
-
 /* ICONOS DERECHA */
 .icons {
   display: flex;
@@ -123,10 +115,6 @@ header nav a:hover {
   height: 22px;
   cursor: pointer;
   transition: opacity 0.3s;
-}
-
-.icons img:hover {
-  opacity: 0.7;
 }
 
 /* MAIN */
@@ -193,10 +181,6 @@ main {
   transition: background-color 0.3s;
 }
 
-.seccion1 .boton:hover {
-  background-color: #b88a3d;
-}
-
 /* PUNTOS */
 .seccion1 .cuadrados {
   display: flex;
@@ -211,10 +195,6 @@ main {
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.seccion1 .cuadrados span:hover {
-  background-color: rgba(209, 161, 87, 0.5);
 }
 
 .seccion1 .cuadrados .activo {
@@ -307,11 +287,6 @@ main {
   background-color: white;
 }
 
-.seccion2 article:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
-}
-
 .seccion2 article img {
   width: 100%;
   height: 280px;
@@ -366,10 +341,6 @@ main {
   transition: transform 0.3s;
 }
 
-.accesorios article:hover {
-  transform: translateY(-3px);
-}
-
 .accesorios article img {
   width: 80px;
   height: 80px;
@@ -400,10 +371,6 @@ main {
   font-weight: bold;
   border-radius: 3px;
   transition: background-color 0.3s;
-}
-
-.accesorios a:hover {
-  background-color: #b88a3d;
 }
 
 /* SECCIÓN 3 */
@@ -462,10 +429,6 @@ main {
   transition: background-color 0.3s;
 }
 
-.seccion3 a:hover {
-  background-color: #b88a3d;
-}
-
 /* SPECIAL OFFERS */
 .special-offers {
   padding: 60px 20px;
@@ -505,11 +468,6 @@ main {
   background-color: white;
   display: flex;
   flex-direction: column;
-}
-
-.special-offers article:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
 }
 
 .special-offers article img {
@@ -553,10 +511,6 @@ main {
   white-space: nowrap;
 }
 
-.add-to-cart:hover {
-  background-color: #b88a3d;
-}
-
 .price {
   font-size: 18px;
   font-weight: bold;
@@ -579,10 +533,6 @@ main {
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.special-offers .cuadrados span:hover {
-  background-color: rgba(209, 161, 87, 0.5);
 }
 
 .special-offers .cuadrados .activo {
@@ -645,10 +595,6 @@ main {
   transition: background-color 0.3s;
 }
 
-.seccion4 a:hover {
-  background-color: #b88a3d;
-}
-
 /* POPULAR CATEGORIES */
 .popular-categories {
   padding: 60px 20px;
@@ -696,11 +642,6 @@ main {
   height: 100%;
 }
 
-.popular-categories article:hover {
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
-}
-
 .popular-categories article img {
   width: 100%;
   height: 180px;
@@ -740,10 +681,6 @@ main {
   transition: border-color 0.3s;
 }
 
-.popular-categories article a:hover {
-  border-bottom-color: #d1a157;
-}
-
 .puntos-navegacion {
   display: flex;
   justify-content: center;
@@ -758,10 +695,6 @@ main {
   display: inline-block;
   cursor: pointer;
   transition: background-color 0.3s;
-}
-
-.puntos-navegacion span:hover {
-  background-color: rgba(209, 161, 87, 0.5);
 }
 
 .puntos-navegacion .activo {
@@ -828,10 +761,6 @@ footer nav a {
   transition: color 0.3s;
 }
 
-footer nav a:hover {
-  color: #d1a157;
-}
-
 footer input[type="email"] {
   width: 100%;
   padding: 10px;
@@ -872,10 +801,6 @@ footer button img {
   filter: brightness(0) invert(1);
 }
 
-footer button:hover {
-  background-color: #b88a3d;
-}
-
 .newsletter p {
   font-size: 11px;
   margin: 15px 0 25px;
@@ -907,10 +832,6 @@ footer>p {
 footer>p a {
   color: white;
   text-decoration: none;
-}
-
-footer>p a:hover {
-  color: #d1a157;
 }
 
 /* RESPONSIVE */
