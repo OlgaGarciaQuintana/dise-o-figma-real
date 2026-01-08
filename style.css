@@ -837,7 +837,6 @@ footer>p a {
 /* RESPONSIVE TABLET */
 @media (max-width: 1000px) {
   .superior {
-    flex-direction: column;
     text-align: center;
     gap: 5px;
     padding: 10px;
@@ -847,6 +846,11 @@ footer>p a {
     flex-direction: column;
     gap: 15px;
     padding: 15px 20px;
+  }
+
+  .elementos {
+    
+    padding: 20px 10px;
   }
 
   .seccion1 {
