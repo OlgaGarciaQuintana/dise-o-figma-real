@@ -834,7 +834,27 @@ footer>p a {
   text-decoration: none;
 }
 
-/* RESPONSIVE */
+/* RESPONSIVE TABLET */
+@media (max-width: 1000px) {
+  .superior {
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    padding: 10px;
+  }
+
+  .imagen-header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 20px;
+  }
+
+  .seccion1 {
+    height: 450px;
+  }
+}
+
+/* RESPONSIVE MOVIL */
 @media (max-width: 768px) {
   .superior {
     flex-direction: column;
