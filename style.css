@@ -848,18 +848,54 @@ footer>p a {
     padding: 15px 20px;
   }
 
-  .elementos {
-    
-    padding: 20px 10px;
+  .seccion1 {
+    height: 400px;
   }
 
-  .seccion1 {
-    height: 450px;
+  .seccion1 h1 {
+    font-size: 32px;
+  }
+
+  .seccion4 {
+    height: 400px;
+  }
+
+  .seccion4 h2 {
+    font-size: 28px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .seccion2>ul {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .special-offers>ul {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+
+  .popular-categories>ul {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    display: grid;
+  }
+
+  .popular-categories li {
+    min-width: auto;
+  }
+
+  .accesorios ul {
+    grid-template-columns: 1fr;
+  }
+
+  .redes-sociales {
+    justify-content: flex-start;
   }
 }
 
 /* RESPONSIVE MOVIL */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .superior {
     flex-direction: column;
     text-align: center;
