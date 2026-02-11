@@ -265,6 +265,7 @@ main {
       }
     }
   }
+
   .elementos {
     background-color: var(--color-bg-lighter);
     padding: var(--spacing-2xl) var(--spacing-lg);
@@ -391,6 +392,7 @@ main {
       }
     }
   }
+
   .accesorios {
     padding: var(--spacing-2xl) var(--spacing-lg);
     background-color: var(--color-bg-lighter);
@@ -514,6 +516,7 @@ main {
       }
     }
   }
+
   .special-offers {
     padding: var(--spacing-4xl) var(--spacing-lg);
     text-align: center;
@@ -736,6 +739,7 @@ main {
       }
     }
   }
+
   .popular-categories {
     padding: var(--spacing-4xl) var(--spacing-lg);
     text-align: center;
@@ -969,6 +973,12 @@ footer {
         display: block;
       }
     }
+  }
+
+  .svg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   &>p {
