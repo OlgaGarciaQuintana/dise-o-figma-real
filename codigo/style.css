@@ -129,6 +129,18 @@ header {
     }
   }
 
+  .audio-header {
+    display: flex;
+    justify-content: center;
+    padding: var(--spacing-xs) var(--spacing-2xl);
+
+    audio {
+      max-width: 260px;
+      width: 100%;
+      height: 28px;
+    }
+  }
+
   .imagen-header {
     display: flex;
     align-items: center;
