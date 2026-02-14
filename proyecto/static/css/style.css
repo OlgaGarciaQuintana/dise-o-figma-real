@@ -993,6 +993,11 @@ footer {
     justify-content: center;
   }
 
+  .video {
+    display: block;
+    margin: 0 auto;
+  }
+
   &>p {
     text-align: center;
     border-top: 1px solid var(--color-border-light);
