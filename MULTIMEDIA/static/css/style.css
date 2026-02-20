@@ -993,9 +993,21 @@ footer {
     justify-content: center;
   }
 
+  .videos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl);
+    flex-wrap: wrap;
+    margin: var(--spacing-2xl) 0;
+  }
+
   .video {
     display: block;
-    margin: 0 auto;
+  }
+
+  .youtube {
+    display: block;
   }
 
   &>p {
