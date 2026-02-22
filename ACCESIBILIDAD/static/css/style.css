@@ -155,6 +155,13 @@ header {
     a {
       color: var(--color-text);
       transition: color var(--transition-speed);
+      display: inline-block;
+      min-height: 24px;
+      min-width: 24px;
+      padding: 8px 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       &:hover {
         color: var(--color-primary);
@@ -168,10 +175,13 @@ header {
     gap: var(--spacing-lg);
 
     img {
-      width: 22px;
-      height: 22px;
+      width: 24px;
+      height: 24px;
       cursor: pointer;
       transition: opacity var(--transition-speed);
+      padding: 8px;
+      min-width: 40px;
+      min-height: 40px;
 
       &:hover {
         opacity: 0.7;
@@ -231,7 +241,10 @@ main {
         padding: 12px var(--spacing-xl);
         font-weight: 700;
         border-radius: var(--border-radius-sm);
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 44px;
         margin-bottom: var(--spacing-2xl);
         font-size: 13px;
         transition: background-color var(--transition-speed);
@@ -244,15 +257,21 @@ main {
       .cuadrados {
         display: flex;
         justify-content: center;
-        gap: var(--spacing-sm);
+        gap: var(--spacing-md);
 
         span {
-          width: 10px;
-          height: 10px;
+          width: 12px;
+          height: 12px;
           border: 2px solid var(--color-primary);
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           cursor: pointer;
           transition: background-color var(--transition-speed);
+          min-width: 32px;
+          min-height: 32px;
+          border-radius: 50%;
+          position: relative;
 
           &.activo {
             background-color: var(--color-primary);
@@ -439,7 +458,9 @@ main {
         }
 
         a {
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           background-color: var(--color-primary);
           color: var(--color-white);
           padding: var(--spacing-xs) var(--spacing-lg);
@@ -447,6 +468,8 @@ main {
           font-weight: 700;
           border-radius: var(--border-radius-sm);
           transition: background-color var(--transition-speed);
+          min-height: 40px;
+          min-width: 100px;
 
           &:hover {
             background-color: var(--color-primary-dark);
@@ -506,9 +529,12 @@ main {
         padding: 12px var(--spacing-xl);
         font-weight: 700;
         border-radius: var(--border-radius-sm);
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         font-size: 13px;
         transition: background-color var(--transition-speed);
+        min-height: 44px;
 
         &:hover {
           background-color: var(--color-primary-dark);
@@ -630,7 +656,9 @@ main {
         gap: var(--spacing-md);
 
         .add-to-cart {
-          display: inline-block;
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
           background-color: var(--color-primary);
           color: var(--color-white);
           padding: var(--spacing-sm) 25px;
@@ -639,6 +667,8 @@ main {
           border-radius: var(--border-radius-sm);
           transition: background-color var(--transition-speed);
           white-space: nowrap;
+          min-height: 40px;
+          min-width: 120px;
 
           &:hover {
             background-color: var(--color-primary-dark);
@@ -657,16 +687,21 @@ main {
     .cuadrados {
       display: flex;
       justify-content: center;
-      gap: var(--spacing-sm);
+      gap: var(--spacing-md);
       margin-top: var(--spacing-xl);
 
       span {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
         border: 2px solid var(--color-primary);
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
         transition: background-color var(--transition-speed);
+        min-width: 32px;
+        min-height: 32px;
+        border-radius: 50%;
 
         &.activo {
           background-color: var(--color-primary);
@@ -729,9 +764,12 @@ main {
         padding: 12px var(--spacing-xl);
         font-weight: 700;
         border-radius: var(--border-radius-sm);
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         font-size: 13px;
         transition: background-color var(--transition-speed);
+        min-height: 44px;
 
         &:hover {
           background-color: var(--color-primary-dark);
@@ -814,6 +852,12 @@ main {
           a {
             color: var(--color-text-muted);
             transition: color var(--transition-speed);
+            display: inline-block;
+            padding: 8px 4px;
+            min-height: 24px;
+            min-width: 24px;
+            display: flex;
+            align-items: center;
 
             &:hover {
               color: var(--color-primary);
@@ -831,16 +875,21 @@ main {
     .puntos-navegacion {
       display: flex;
       justify-content: center;
-      gap: var(--spacing-sm);
+      gap: var(--spacing-md);
       margin-top: var(--spacing-xl);
 
       span {
-        width: 10px;
-        height: 10px;
+        width: 12px;
+        height: 12px;
         border: 2px solid var(--color-primary);
-        display: inline-block;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
         cursor: pointer;
         transition: background-color var(--transition-speed);
+        min-width: 32px;
+        min-height: 32px;
+        border-radius: 50%;
 
         &.activo {
           background-color: var(--color-primary);
@@ -899,6 +948,12 @@ footer {
           color: var(--color-text-muted);
           font-size: 13px;
           transition: color var(--transition-speed);
+          display: inline-block;
+          padding: 8px 4px;
+          min-height: 24px;
+          min-width: 24px;
+          display: flex;
+          align-items: center;
 
           &:hover {
             color: var(--color-primary);
@@ -933,8 +988,8 @@ footer {
         }
 
         button {
-          width: 45px;
-          height: 41px;
+          width: 48px;
+          height: 44px;
           padding: 0;
           background-color: var(--color-primary);
           color: var(--color-white);
@@ -948,6 +1003,7 @@ footer {
           display: flex;
           align-items: center;
           justify-content: center;
+          min-height: 44px;
 
           &:hover {
             background-color: var(--color-primary-dark);
