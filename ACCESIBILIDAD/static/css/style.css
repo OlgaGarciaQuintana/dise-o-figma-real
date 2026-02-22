@@ -71,7 +71,7 @@ ul {
            NOTIFICACIÓN TOP
    ============================================ */
 aside {
-  background-color: var(--color-primary-dark);
+  background-color: #5a3a1a;
   padding: var(--spacing-xs) var(--spacing-2xl);
   position: relative;
   display: flex;
