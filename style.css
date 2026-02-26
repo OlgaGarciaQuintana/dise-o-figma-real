@@ -60,9 +60,8 @@ a {
 }
 
 .seccion:last-child a {
-    background-color: #7e1e1e;
+    background-color: red;
 }
 
 .seccion:last-child a:hover {
-    background-color: #5a1414;
-}
+    background-color: crimson}
