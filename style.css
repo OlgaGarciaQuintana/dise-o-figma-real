@@ -59,10 +59,10 @@ a {
     background-color: #145a27;
 }
 
-.seccion:nth-child(6) a {
+.seccion:last-child a {
     background-color: #7e1e1e;
 }
 
-.seccion:nth-child(6) a:hover {
+.seccion:last-child a:hover {
     background-color: #5a1414;
 }
